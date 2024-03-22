@@ -1,0 +1,24 @@
+{
+  "name": "@esri/arcgis-rest-tree-shaking-webpack",
+  "version": "3.4.3",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:app": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "@esri/arcgis-rest-portal": "^3.4.3",
+    "@esri/arcgis-rest-request": "^3.4.3"
+  }
+}
